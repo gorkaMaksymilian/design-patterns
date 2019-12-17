@@ -28,7 +28,7 @@ if __name__ == '__main__':
         cena_oficjalna.visit_ptak(ptak)
     print(cena_oficjalna.suma)
 
-    print('\n\nCena oficjalna wszystkich zwierzat w sklepie:')
+    print('\n\nCena czarnorynkowa wszystkich zwierzat w sklepie:')
     cena_czarnorynkowa = CzarnorynkowaCenaVisitor()
     for zwierze in zwierzeta[3:]:
         cena_czarnorynkowa.visit(zwierze)
